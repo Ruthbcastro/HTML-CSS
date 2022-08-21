@@ -5,7 +5,7 @@ html{
 
 /* Con inherit podemos heredar características de la clase padre que tenga
  algún estilo preestablecido, en este caso html de arriba */
- 
+  
 h1{
     font-size: inherit;
 }
