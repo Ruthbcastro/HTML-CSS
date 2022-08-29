@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1 {
+    color: purple;
     font-family: serif;
+    margin-bottom: 10px;
 }   
 
 #page-title {
@@ -7,3 +13,19 @@ h1 {
   /* cuando llamo una fuente y se escriben más, son las fuentes de respaldo 
     por si el navegador no tiene la primer */
 }
+
+.tittle {
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
