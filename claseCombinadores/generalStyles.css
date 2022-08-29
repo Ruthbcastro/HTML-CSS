@@ -1,0 +1,6 @@
+/* GENERAL SIBING. sí se escribe la etiqueta de hermano general para elegir
+ todas las p que esten en la misma linea que un h2 */
+
+ h2 ~ p {
+    color: red;
+ }

@@ -1,0 +1,5 @@
+/* ADJACENT SIBING. sí se escribe la etiqueta de hermano adjacente o cercano para elegir
+ todas las p que esten cerca (abajo) de un h2 */
+h2 + p {
+    color: red;
+}
