@@ -29,3 +29,10 @@ h1 {
     display: inline-block;
 }
 
+#main-nav a {
+    color: white;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 2px;
+
+}
