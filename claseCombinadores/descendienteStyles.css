@@ -1,0 +1,8 @@
+
+
+/*DESCENDANT  A todas las etiquetas párrafo que esten adentro o desciendan de una etiqueta div,
+se le aplica el siguiente estilo */
+
+div p {
+    color: red;
+}

@@ -1,0 +1,8 @@
+/* CHILD vamos a mandar la etiqueta, el signo de mayor que, y la etiqueta a la que queremos agregarle el estilo
+Se lee: el padre div que sea mayor padre de una etiqueta parrafo
+...La etiqueta parrafo que se hija directa de una etiqueta div
+a esa etiqueta se le agregarán los sigueintes estilos */
+
+div > p {
+    color: red;
+}
