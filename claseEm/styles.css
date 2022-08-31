@@ -1,0 +1,27 @@
+/* el padre del body es el html por defaul con 16 px */
+body {
+    font-size: 20px;
+}
+
+/*------------------- em va a tomar la medida de su padre directo --------------------------
+*/
+
+/* esta clase se ejecuta para todo el main, y el padre del main es el body.
+1 EM = 16px
+1.5 EM = 24 px
+1.5 * 16px = 24px
+luego es recursivo
+1 EM = 24px
+24 * 1.5 = 36px
+1 EM = 36 px
+36 * 1.5 = 54px
+*/
+.text-container {
+    font-size: 1.5em;
+}
+
+/* el padre del div es la clase main  */
+.text-container div {
+    font-size: 1.5em;
+
+}
