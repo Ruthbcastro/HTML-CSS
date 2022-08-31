@@ -1,0 +1,11 @@
+main {
+    background-color: red;
+    /* el wigth se debe hacer flexible para poder hacer el responsive */
+    width: 600px;
+    height: 500px;
+
+}
+
+p {
+    font-size: 16px;
+}
