@@ -1,0 +1,20 @@
+/* así siempre debe venir en todos los archivos css para poder usar rem en lugar de los pixeles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* 1 rem siempre va a ser igual a 10px, 1.6 = a 16...etc */
+p {
+    font-size: 1.6rem;
+}
+
+main div {
+    font-size: 1.6rem;
+}
+
