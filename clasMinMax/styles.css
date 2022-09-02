@@ -19,5 +19,6 @@ section {
    /*  el 0 auto quiere decir que de arriba a abajo no se le agrega ningun margin, pero de derecha a izquierda 
     agregue uno que se ajuste de manera automática */
     margin: 0 auto;
-    background-color: red;
+    background-color: red;   
+    
 }
