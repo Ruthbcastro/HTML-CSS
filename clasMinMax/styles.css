@@ -15,7 +15,9 @@ section {
     /* para poder jugar con el min y max width se encesita un width base y casi siempre se usa en porcentaje */
     width: 80%;
     min-width: 320px;
-    height: 500px;
+    /* se usa el min-height: porque sino cuando hay mas texto que el espacio del contenedor, se sale.
+     Así que con min-height puedo decirle que el espacio minimo de contenedor es 500px pero si hay más texto se agrande */
+    min-height: 500px;
    /*  el 0 auto quiere decir que de arriba a abajo no se le agrega ningun margin, pero de derecha a izquierda 
     agregue uno que se ajuste de manera automática */
     margin: 0 auto;
