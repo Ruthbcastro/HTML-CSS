@@ -12,11 +12,18 @@ main {
 }
 
 section {
-    /* para poder jugar con el min y max width se encesita un width base y casi siempre se usa en porcentaje */
+    /* para poder jugar con el min y max width se encesita un width base 
+    y casi siempre se usa en porcentaje para que sea el porcentaje de pantalla que va a usar mi section */
     width: 80%;
+
+    /* limitamos el decremento de la pantalla en el responsive del width (anchura) con 320px */
     min-width: 320px;
+    
+    /* para limitar el crecimieto del section usamos el max-width con 500px */
+    max-width: 500px;
+
     /* se usa el min-height: porque sino cuando hay mas texto que el espacio del contenedor, se sale.
-     Así que con min-height puedo decirle que el espacio minimo de contenedor es 500px pero si hay más texto se agrande */
+     Así que con min-height (altura) puedo decirle que el espacio minimo de contenedor es 500px pero si hay más texto se agrande */
     min-height: 500px;
    /*  el 0 auto quiere decir que de arriba a abajo no se le agrega ningun margin, pero de derecha a izquierda 
     agregue uno que se ajuste de manera automática */
