@@ -4,8 +4,9 @@
     padding: 0;
 }
 
-padre-div {
-    border: 2px black dotted; /* dotted siginifica punteado en el borde */
+.padre-div {
+     /* dotted siginifica punteado en el borde */
+    border: 2px black dotted;
     display: inline-block;
 }
 
@@ -14,4 +15,8 @@ padre-div {
     background-color: red;
     width: 100px;
     height: 100px;
+}
+
+#dos {
+background-color: green;
 }
