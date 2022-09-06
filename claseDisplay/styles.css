@@ -1,0 +1,25 @@
+.block-element {
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+}
+
+.nav{
+    background-color: peachpuff;
+    padding: 20 px;
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+     /*con el display inline-block puedo tener lo mejor del display block y del display inline
+    De parte de inline:Hace que ocupe  el 100% del tamaño del contenido, si hay espacio permite que 
+    otros hermanos se pongan alado. Si no hay espacio bajan
+    De parte de block: permite agregarle margin y padding de arriba y abajo, y manipular el height y el width
+     */
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
