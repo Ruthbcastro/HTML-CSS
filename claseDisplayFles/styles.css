@@ -13,7 +13,11 @@
     }
 
 
-    /* nuestro container principal es necesario para poder jugar con los hijos contenedores */
+    /* nuestro container principal es necesario para poder jugar con los hijos contenedores 
+    
+    
+    
+    */
     .container { 
         border: 0.3rem solid black;
         /*posiciona mis elementos verticalmente (columna )y mas flexibles, trae display row, display direccion de los hijos*/
@@ -22,11 +26,12 @@
         /* flex-direction: column; nos vuelve a poner en columnas los contenedores, para jugar con mi display flex */
         /* flex-direction: row-reverse; nos voltea las columnas, de arriba hacia abajo */
 
-
         /* hace que mis contenedores se acomden hacia abajo cuando mi pantalla se achica 
         cuando tengo mas elementos lo puedo usar para cundo ya no tengo espacio, mi container va a crecer de forma automatica,
          me despreocupo de los porcentajes
          */
+
+
         flex-wrap: wrap;
 
         /*  flex-wrap: wrap-reverse; hace lo mismo que el wrap pero los posiciona al reves, comienza con el 6 y 
